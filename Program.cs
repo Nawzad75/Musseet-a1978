@@ -1,6 +1,6 @@
 ﻿internal class Program
 {
-
+    // Hej
     static List<string> Rooms = new List<string>()
     {
         "ENTRANCE",
