@@ -20,13 +20,13 @@
 
     private static void Main(string[] args)
     {
-        int currntRum = 0;
+        int currntRoom = 0;
 
         while (true)
         {
-            ShowRum(currntRum);
-            ShowThings(currntRum);
-            ShowMenu(currntRum);
+            ShowRum(currntRoom);
+            ShowThings(currntRoom);
+            ShowMenu(currntRoom);
             int input = Convert.ToInt32(Console.ReadLine());
 
             if (input > 4)
@@ -35,7 +35,7 @@
                 Environment.Exit(0);
             }
 
-            currntRum = input;
+            currntRoom = input;
         }
 
 
